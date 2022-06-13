@@ -10,7 +10,7 @@ public class Collaborator {
         persArray[4] = new Employee("Violeta Karamanova", "Povar", "v_karamanova@rambler.ru", "+393245875434", 2030.34, 32);
         //System.out.println(Arrays.toString(persArray));
         for (int i = 0; i < persArray.length; i++) {
-            if (persArray[i].age > 40) {
+            if (persArray[i].getAge() > 40) {
                 System.out.println(persArray[i]);
             }
         }
@@ -18,12 +18,12 @@ public class Collaborator {
 }
 
 class Employee {
-    String name;
-    String post;
-    String email;
-    String tel;
-    double salary;
-    int age;
+    private String name;
+    private String post;
+    private String email;
+    private String tel;
+    private double salary;
+    private int age;
 
     Employee(String name, String post, String email, String tel, double salary, int age) {
         this.name = name;
@@ -33,6 +33,15 @@ class Employee {
         this.salary = salary;
         this.age = age;
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 
     @Override
     public String toString() {
