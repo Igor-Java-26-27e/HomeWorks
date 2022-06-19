@@ -1,15 +1,13 @@
 package HomeWork2;
 
-public class Cat extends Animal{
-    public Cat (String name, int runLimit, int swimLimit){
-        super (name, runLimit, swimLimit);
+class Cat extends Animal {
+
+    Cat(int runLimit){
+        super(runLimit, -1);
     }
+
     @Override
-    public int animalRun (){
-        return 200;
-    }
-    @Override
-    public int animalSwim (){
-        return 0;
+    public String swim (int distance) {
+        return getClassName() + " can't swim";
     }
 }

@@ -1,10 +1,6 @@
 package HomeWork2;
 
-public interface IAnimal {
-    default int animalRun() {
-        return 300;
-    }
-
-    default int animalSwim(){
-        return 30;}
+interface IAnimal {
+    String run(int distance);
+    String swim(int distance);
 }
