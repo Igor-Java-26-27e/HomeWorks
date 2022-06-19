@@ -1,6 +1,10 @@
 package HomeWork2;
 
 public interface IAnimal {
-    int runLimit();
-    int swimLimit();
+    default int animalRun() {
+        return 300;
+    }
+
+    default int animalSwim(){
+        return 30;}
 }

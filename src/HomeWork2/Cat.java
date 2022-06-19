@@ -5,11 +5,11 @@ public class Cat extends Animal{
         super (name, runLimit, swimLimit);
     }
     @Override
-    public int runLimit (){
+    public int animalRun (){
         return 200;
     }
     @Override
-    public int swimLimit (){
+    public int animalSwim (){
         return 0;
     }
 }
