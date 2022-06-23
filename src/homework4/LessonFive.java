@@ -1,4 +1,9 @@
 package homework4;
+/**
+ * Java Pro. Homework #4
+ * @author Igor Cijov
+ * @version 23 Jun 2022
+ */
 
 import java.util.Arrays;
 
