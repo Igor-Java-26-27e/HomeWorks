@@ -1,4 +1,4 @@
-package HomeWork2;
+package homework2;
 
 interface IAnimal {
     String run(int distance);

@@ -1,4 +1,4 @@
-package HomeWork3.CatAndPlate;
+package homework3.CatAndPlate;
 
 class Cat {
     private final String name;

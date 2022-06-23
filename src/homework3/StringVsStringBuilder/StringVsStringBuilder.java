@@ -1,4 +1,4 @@
-package HomeWork3.StringVsStringBuilder;
+package homework3.StringVsStringBuilder;
 /**
  * Java Pro. Homework #3
  * @author Igor Cijov

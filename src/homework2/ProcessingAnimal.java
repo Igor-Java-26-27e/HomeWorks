@@ -1,4 +1,4 @@
-package HomeWork2;
+package homework2;
 /**
  * Java Pro. Homework #2
  * @author Igor Cijov
@@ -7,8 +7,8 @@ package HomeWork2;
 
 public class ProcessingAnimal {
     public static void main(String[] args) {
-        HomeWork2.Cat cat = new Cat(200);
-        HomeWork2.Dog dog = new Dog(500, 10);
+        homework2.Cat cat = new Cat(200);
+        homework2.Dog dog = new Dog(500, 10);
 
         IAnimal[] animals = {cat, dog};
         for (IAnimal animal : animals) {

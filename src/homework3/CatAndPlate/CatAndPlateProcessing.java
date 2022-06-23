@@ -1,4 +1,4 @@
-package HomeWork3.CatAndPlate;
+package homework3.CatAndPlate;
 /**
  * Java Pro. Homework #3
  * @author Igor Cijov

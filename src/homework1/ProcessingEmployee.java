@@ -1,6 +1,6 @@
-package HomeWork1;
+package homework1;
 
-import HomeWork1P.Employee;
+import homework1p.Employee;
 
 /**
 * Java Pro. Homework #1
@@ -23,12 +23,12 @@ import HomeWork1P.Employee;
 public class ProcessingEmployee {
 
     public static void main(String[] args) {
-        HomeWork1P.Employee[] employees = {
-                new HomeWork1P.Employee("Ivanov Ivan", "Engineer", "ivanov@gmail.com", "+4917432354", 2243.53, 41),
-                new HomeWork1P.Employee("Timur Scvortov", "Architect", "timur@yahoo.com", "+30120549867", 2598.73, 35),
-                new HomeWork1P.Employee("Elena Sidorova", "Contabil", "e.sidorova@mail.ru", "+7932457933", 1985.4, 54),
-                new HomeWork1P.Employee("Maxim Sergheev", "Traktorist", "sergheecm@gmail.com", "+14523054324", 1550.87, 43),
-                new HomeWork1P.Employee("Violeta Karamanova", "Povar", "v_karamanova@rambler.ru", "+393245875434", 2030.34, 32)
+        homework1p.Employee[] employees = {
+                new homework1p.Employee("Ivanov Ivan", "Engineer", "ivanov@gmail.com", "+4917432354", 2243.53, 41),
+                new homework1p.Employee("Timur Scvortov", "Architect", "timur@yahoo.com", "+30120549867", 2598.73, 35),
+                new homework1p.Employee("Elena Sidorova", "Contabil", "e.sidorova@mail.ru", "+7932457933", 1985.4, 54),
+                new homework1p.Employee("Maxim Sergheev", "Traktorist", "sergheecm@gmail.com", "+14523054324", 1550.87, 43),
+                new homework1p.Employee("Violeta Karamanova", "Povar", "v_karamanova@rambler.ru", "+393245875434", 2030.34, 32)
         };
         for (Employee employee : employees){
             if (employee.getAge() > 40){
