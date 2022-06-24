@@ -67,33 +67,39 @@ class RubberArray {
     }
 
     public int getMax() {
+        if (array != null) {
         int max = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > max) {
-                max = array[i];
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] > max) {
+                    max = array[i];
+                }
             }
         }
-        return max;
+        return 0;
     }
 
     public int getMin() {
+        if (array != null) {
         int min = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] < min) {
+                    min = array[i];
+                }
             }
         }
-        return min;
+        return 0;
     }
 
     public double getAverage() {
-        double sum = 0;
-        double average;
-        for (int i = 0; i < array.length; i++) {
-            sum += array[i];
+        if (array != null) {
+            double sum = 0;
+            double average;
+            for (int i = 0; i < array.length; i++) {
+                sum += array[i];
+            }
+            average = sum / array.length;
         }
-        average = sum / array.length;
-        return average;
+        return 0;
     }
 
     @Override
