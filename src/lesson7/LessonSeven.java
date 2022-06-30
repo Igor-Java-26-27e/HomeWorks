@@ -1,4 +1,9 @@
 package lesson7;
+/**
+ * Java Pro. lesson #7
+ * @author Igor Cijov
+ * @version 30 Jun 2022
+ */
 
 public class LessonSeven {
     public static void main(String[] args) {
