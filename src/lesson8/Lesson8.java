@@ -1,4 +1,9 @@
 package lesson8;
+/**
+ * Java Pro. lesson #8
+ * @author Igor Cijov
+ * @version 05 Jul 2022
+ */
 
 import java.util.Iterator;
 
