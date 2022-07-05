@@ -1,4 +1,9 @@
 package homework8;
+/**
+ * Java Pro. homework #8
+ * @author Igor Cijov
+ * @version 05 Jul 2022
+ */
 
 public class ProcessingCatManRobot {
     public static void main(String[] args) {
