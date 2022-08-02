@@ -6,9 +6,7 @@ package homework12.task1;
  * @version 31 Jul 2022
  */
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Homework12 {
     public static void main(String[] args) {
@@ -23,6 +21,7 @@ public class Homework12 {
         System.out.println(Arrays.toString(arrays));
         System.out.println("---------------------------------------------");
         System.out.println("Count how many times appears each word:");
+        Map<String, Integer> wordCounter = new HashMap<>();
         int counter = 0;
         for (int i = 0; i < arrays.length - 1; i++) {
             for (int j = i + 1; j < arrays.length; j++) {
@@ -32,8 +31,10 @@ public class Homework12 {
                 }
             }
             i += counter;
-            System.out.println((counter==0)? arrays[i] + ":" + " appears " + (counter+1) + " time" : arrays[i] + ":" + " appears " + (counter+1) + " times");
+            wordCounter.put(arrays[i],counter+1);
+            //System.out.println((counter==0)? arrays[i] + ":" + " appears " + (counter+1) + " time" : arrays[i] + ":" + " appears " + (counter+1) + " times");
             counter = 0;
         }
+        System.out.println(wordCounter);
     }
 }
